@@ -1,0 +1,25 @@
+{
+	"title": "Input file",
+	"type": "object",
+	"properties": {
+		"input": {
+			"type": "object",
+			"properties": {
+				"platform": {"type": "string"},
+				"input": {"type": "string"},
+				"output": {"type": "string"}
+			},
+			"required": ["platform", "input", "output"]
+		},
+		"output": {
+			"type": "object",
+			"properties": {
+				"platform": {"type": "string"},
+				"input": {"type": "string"},
+				"output": {"type": "string"}
+			},
+			"required": ["platform", "input", "output"]
+		}
+	},
+	"required": ["input", "output"]
+}

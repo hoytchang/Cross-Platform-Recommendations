@@ -1,0 +1,12 @@
+version: "schema1"
+
+
+input:
+  platform: 'reddit'
+  input: 'bitcoin'
+  output: 'data'
+
+output:
+  platform: 'youtube'
+  input: 'reddit'
+  output: 'data'
