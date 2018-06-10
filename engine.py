@@ -8,7 +8,7 @@ class Engine(object):
     def __init__(self, instruct, keys):
         self.start = self.get_component(instruct['input']['platform'])
         self.end = self.get_component(instruct['output']['platform'])
-        self.start.component.get_data()
+        self.start.component.get_data(keys,instruct['input']['input'])
 
     def run(self):
         pass

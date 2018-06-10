@@ -8,7 +8,7 @@ from nltk.corpus import stopwords
 class component(object):
 
     @classmethod
-    def get_data(cls, config_keys, sr, *args, *kwargs):
+    def get_data(cls, config_keys, sr, *args, **kwargs):
         reddit = praw.Reddit(**config_keys)
         cls.sr = sr
 
